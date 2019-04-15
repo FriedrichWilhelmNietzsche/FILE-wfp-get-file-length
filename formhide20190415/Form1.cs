@@ -33,7 +33,7 @@ namespace formhide20190415
                 button1.Left = splitContainer1.Width - button1.Width;
                 button2.Left = splitContainer1.Width - button2.Width;
                 button1.Text = "《";
-            }
+            }   
         }
     }
 }
