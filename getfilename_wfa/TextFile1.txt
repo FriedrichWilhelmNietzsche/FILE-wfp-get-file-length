@@ -1,0 +1,10 @@
+﻿
+
+DirectoryInfo 类的GetFileSystemInfos方法，
+Fileinfo类DirectoryName\Name属性
+
+
+
+
+
+

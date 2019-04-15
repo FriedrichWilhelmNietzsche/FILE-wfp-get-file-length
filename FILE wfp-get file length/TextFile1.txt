@@ -1,0 +1,51 @@
+﻿
+1:
+
+1)、file 类 open
+public static FileStream Open(string path, FileMode mode)
+2)、FileStream 类 length
+public override long length{get;}
+
+
+2:
+1)、substring：指定字符位置开始截取指定长度的字符串。
+      P_OpenFileDialog.FileName.Substring(
+                        P_OpenFileDialog.FileName.LastIndexOf(".") + 1,
+                        P_OpenFileDialog.FileName.Length-
+						P_OpenFileDialog.FileName.LastIndexOf(".") - 1)
+
+3：
+1）、FileInfo 类主要提供creat \ copy \ delete \ move \ open file
+public DateTime Creation Time{get;set;}         //present FileInfo Obj creat date or time 
+
+4:
+1)、Path 类用来对包含文件或目录路径信息的String 实例操作
+public static char[] GetInvalidFileNameChars()
+
+5:
+1)、File 类的Creat 方法用来指定路径中创建文件，该方法可重载
+public static FileStream Create(string path) //path:路径及名称；返回值：FileStrem，对文件的读写
+2）、File 类的delete 方法用来删除指定文件，文件不存在不引发异常
+public static void Delete)(string path)   //path:要删除的文件名
+
+6:
+1)、GUID 结构表示全局唯一标识符，NewGUID 方法初始化GUID结构
+public static Guid NewGuid()
+
+7：
+1）、Path类的 GetFileName方法来创建磁盘上唯一命名的零字节的临时文件并返回该文件的完整路径
+public static string GetTempFileName()
+2)、FileInfo类的AppendText方法来创建一个StreamWrite 对象，它向FileInfo的对象表示的文本追加文本
+public StreamWrite AppendText()
+
+
+
+
+
+
+   
+
+
+
+
+
